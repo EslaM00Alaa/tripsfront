@@ -1,0 +1,38 @@
+/* .sidebar{
+  background-color:#76a9f6 ;
+  font-weight: 600;
+  width: 22%;
+  height: 100vh;
+  margin-bottom: 0 !important;
+
+}
+
+.icon{
+  color: #1c456d;
+  font-size: 22px !important;
+  margin-right: 25px !important;
+}
+.type{
+  color: #1c456d !important;
+  font-size: 20px !important;
+  margin-left: 15px;
+}
+
+.sidebar {
+
+width: 22%;
+}
+
+
+@media (max-width:1000px) {
+  .sidebar {
+
+    width: 30%;
+    }
+  
+}
+.logoDashboard{
+  width: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #1c456d;
+} */

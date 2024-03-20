@@ -1,0 +1,11 @@
+.swiperTrip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+
+}
+.swiperTrip::-webkit-scrollbar {
+  width: 0; 
+}

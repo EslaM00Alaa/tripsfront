@@ -1,0 +1,35 @@
+.footer {
+  width: 100.8%;
+  background-color: #1c456d;
+}
+
+.footer p {
+  font-size: 18px;
+  color: #aaaab3 !important;
+}
+
+.footer .link:hover {
+  color: #fff !important;
+}
+
+.footer .social {
+  text-decoration: none !important;
+  color: #fff;
+
+}
+
+.footer .social:hover {
+  color: #0d6efd;
+}
+
+.subfooter {
+  background-color: #132e48;
+}
+
+.linkfooter {
+  color: #aaaab3 !important;
+}
+
+.linkfooter:hover ,.aboutUs{
+  color: #fff !important;
+}

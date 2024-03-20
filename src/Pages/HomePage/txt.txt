@@ -1,0 +1,71 @@
+<h2>Details for Trip ID: {id}</h2>
+{tripDetails ? (
+  <div>
+    <h3>{tripDetails.name}</h3>
+    <img src={tripDetails.images} alt={tripDetails.name} style={{ maxWidth: '100%' }} />
+    <p>Price: ${tripDetails.price} per person</p>
+    <p>Duration: {tripDetails.duration}</p>
+    <p>Vehicle: {tripDetails.vechicle}</p>
+    <p>Guiding: {tripDetails.gudinjg}</p>
+    {/* يمكنك إضافة المزيد من التفاصيل حسب حاجتك */}
+  </div>
+) : (
+  <p>Loading trip details...</p>
+)}
+
+
+
+const [inputValue, setInputValue] = useState(''); 
+const [items, setItems] = useState([]); 
+
+
+const addItem = () => {
+  if (inputValue.trim() !== '') {
+    setItems([...items, inputValue]);
+    setInputValue(''); // إعادة تعيين قيمة الحقل النصي بعد الإضافة
+  }
+};
+
+// دالة لحذف العنصر من المصفوفة
+const deleteItem = (index) => {
+  const newItems = [...items];
+  newItems.splice(index, 1);
+  setItems(newItems);
+};
+{/* <h4>This tour includes: </h4>
+  <ListGroup as="ol" className="mb-5">
+    <ListGroup.Item as="li">Cras justo odio</ListGroup.Item>
+    <ListGroup.Item as="li">Cras justo odio</ListGroup.Item>
+    <ListGroup.Item as="li">Cras justo odio</ListGroup.Item>
+  </ListGroup> */}
+
+
+
+
+  <Container>
+  <Form.Label>Includes For Trips :</Form.Label>
+  <Row className="mb-3">
+    <Col md={9}>
+    
+      <Form.Control
+        type="text"
+        value={inputValue}
+        onChange={(e) => setInputValue(e.target.value)}
+        placeholder="Add Feature For Trips"
+        className="mt-2"
+      />
+    </Col>
+    <Col md={3}>
+      <Button variant="primary" className="mt-2" onClick={addItem}>Add Feature</Button>
+    </Col>
+  </Row>
+  {/* عرض العناصر الموجودة في المصفوفة */}
+  <ListGroup>
+    {items.map((item, index) => (
+      <ListGroup.Item key={index} className="d-flex justify-content-between align-items-center ">
+        {item}
+        <FontAwesomeIcon icon={faTimes} onClick={() => deleteItem(index)} style={{ cursor: 'pointer' }} />
+      </ListGroup.Item>
+    ))}
+  </ListGroup>
+</Container>

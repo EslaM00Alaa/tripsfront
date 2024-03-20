@@ -1,0 +1,54 @@
+{
+  "aboutUs": "ÜBER UNS",
+  "arabianTravelService": "Arabischer Reisedienst",
+  "exploreDestinations": "Erkunden Sie weltweit die Destinationen und erleben Sie Freizeit. Der Arabische Reisedienst bietet maßgeschneiderte Tourenpakete für Ihre vollste Zufriedenheit."
+ ,
+  "blogTitle": "ARABISCHER REISEBLOG",
+  "ourBlogEvent": "Unser Blog & Event",
+  "date": "Datum"
+,
+"discoverWorld": "Entdecken Sie eine Welt endloser Erfahrungen",
+"contactUs": "KONTAKTIEREN SIE UNS",
+"termsConditions": "Geschäftsbedingungen",
+"home": "Startseite",
+"aboutUs": "Über uns",
+"blog": "Blog",
+
+"login": "Anmelden",
+"register": "Registrieren",
+"logout": "Abmelden",
+"dashboard": "Dashboard",
+"home": "Startseite",
+"aboutUs": "Über uns",
+"blog": "Blog",
+"allTrips": "Alle Reisen",
+"contact": "Kontakt",
+"search": "Suche"
+ 
+,
+"wecomeTitle" : "Entdecken Sie eine Welt endloser Erlebnisse" ,
+"welcomeMessage": "Willkommen bei Arabian Travel Service. Ihr Partner für Destinationsmanagement. Das erste Online-System, um kostenlos zu buchen und bei Abholung zu bezahlen.",
+"discoverNow": "JETZT ENTDECKEN",
+"ourServices" : "UNSERE DIENSTLEISTUNGEN",
+"discoverServices" : "Entdecken Sie unsere Dienstleistungen",
+"discoverServicesDescription" : "Wir bieten alle beliebten Erlebnisse an unseren Reisezielen an, alle Arten von geführten Ausflügen, Wüstensafaris, Stadtrundfahrten, Bergsafaris, Wanderungen, Wasser- und Meeresaktivitäten und VIP-Flughafentransfers, wobei der Schwerpunkt auf Qualität und Liebe zum Detail liegt. Was uns jedoch von anderen unterscheidet, sind die thematischen Ausflüge und Programme, die speziell von unseren erfahrenen Ingenieuren entwickelt wurden und exklusiv für unsere Kunden verfügbar sind.",
+"bookNow" : "buchen Sie jetzt",
+"bookNowDescription" : "„Später zuerst zahlen“ Das Online-Buchungssystem bietet die Möglichkeit, Ihren Service zuerst zu buchen und bei der Abholung zu bezahlen",
+"fitAndFamily" :"Premium FIT & Familie",
+"fitAndFamilyDesc" :"Premium FIT & Familienreisen Unsere Experten stellen gerne individuelle Pakete für unsere geliebten Kunden und deren Familien zusammen. Wir organisieren jeden Aspekt davon.",
+"Excursions" :"Ausflüge",
+"ExcursionsDesc" :"Ausflüge Wir bieten eine umfassende Auswahl an Stadtrundfahrten, Wüstensafaris mit modernen Landcruisern sowie Übernachtungen im Empty Quarter, Discover Mountain und Wandern.",
+"Transfers" :"Überweisungen",
+"TransfersDesc" :"Transfers – Transfers an jedem Zielort, eigene und begleitete Flotte, wettbewerbsfähige Tarife, Garantie höchster Qualität und Sicherheit durch regelmäßige Kontrollen.",
+"tailorMade" :"Maßgeschneiderte Programme",
+"tailorMadeDesc" :"Maßgeschneiderte Programme: Die Reise kann das ganze Jahr über individuell gestaltet und bei Bedarf an Ihre Interessen, Ihr Budget und Ihre Anforderungen angepasst werden. Einzigartig.",
+
+"insurance" :"Vollständige Versicherungsdienstleistungen",
+"insuranceDesc" :"Vollständige Versicherungsleistungen, fühlen Sie sich sicher, genießen Sie Ihren Service und seien Sie zu 100 % versichert, dass alle erbrachten Leistungen vollständig versichert sind.",
+
+"duration" : "Dauer",
+"vehicle" : "Fahrzeug",
+"guiding" : "Führung",
+"moreDetails" : "MEHR DETAILS",
+"noTrips" : "Keine Reisen verfügbar"
+}

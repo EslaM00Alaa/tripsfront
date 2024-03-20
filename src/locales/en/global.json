@@ -1,0 +1,51 @@
+{
+  "aboutUs": "ABOUT US",
+  "arabianTravelService": "Arabian Travel Service",
+  "exploreDestinations": "Explore the destinations worldwide and experience leisure. Arabian Travel Service provides tailor-made tour packages to ensure your utmost satisfaction."
+  ,
+  "blogTitle": "ARABIANTRAVEL BLOG",
+  "ourBlogEvent": "Our Blog & Event",
+  "date": "Date"
+,"footer" : "" ,
+"discoverWorld": "Discover a World of Endless Experiences",
+"contactUs": "CONTACT US",
+"termsConditions": "Terms & Conditions",
+"home": "Home",
+"blog": "Blog"
+,"header" : "" ,
+
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "allTrips": "All Trips",
+  "contact": "Contact Us",
+  "search": "Search"
+,"slider" : "" 
+,
+"wecomeTitle" : "Discover a World of Endless Experiences" ,
+"welcomeMessage": "Welcome to Arabian Travel Service. Your Destination Management Partner. First online system to book first free of charge and pay upon pick up time.",
+"discoverNow": "DISCOVER NOW",
+"ourServices" : "OUR SERVICES",
+"discoverServices" : "Discover Our Services",
+"discoverServicesDescription" : "We offer all the popular experiences available in our destinations, All Types of guided Excursions Desert safari , City tours , Mountain Safari , Hiking, water sea activities and VIP Airport Transfers ,with a focus on quality and attention to detail. However, what makes us stand apart are the themed excursions and programs that are specially designed by our experience engineers and available exclusively to our clients .",
+"bookNow" : "Book Now",
+"bookNowDescription" :"Pay Later First Online Booking System have an Option to book your Service First and you can pay upon Pick up time.",
+"fitAndFamily" :"Premium FIT & Family",
+"fitAndFamilyDesc" :"Premium FIT & Family Travel Our experts are happy to handcraft packages for our Beloved clients as well as their families We organize every aspect of the.",
+"excursions" :"Excursions",
+"excursionsDesc" :"Excursions We offer a full range of city tours, Desert Safari By Modern Landcruiser’s as well as Overnight in Empty Quarter , Discover Mountain and Hiking.",
+"Transfers" :"Transfers",
+"TransfersDesc" :"Transfers - Transfers in each destination , Own and escorted fleet , Competitive rates , Guarantee of highest quality and safety due to regular checks.",
+"tailorMade" :"Tailor-Made Programs",
+"tailorMadeDesc" :"Tailor-Made Programs , trip can be tailor made throughout the year and can be adapted to suit your interests, budget and requirements as necessary Unique.",
+"insurance" :"Full Insurance Services",
+"insuranceDesc" :"Full Insurance Services , Feel safe , Enjoy your Service and be 100 % that all Provided Services is Fully Insured.",
+"duration" : "Duration",
+"vehicle" : "Vehicle",
+"guiding" : "Guiding",
+"moreDetails" : "MORE DETAILS",
+"noTrips" : "No trips available"
+
+
+}

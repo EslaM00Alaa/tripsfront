@@ -1,0 +1,25 @@
+.cardBook{
+  border: none !important;
+  width: 60%;
+}
+.btnBook{
+
+  margin-bottom: 20px;
+  min-width: 150px !important;
+}
+.price{
+  font-size: 30px;
+}
+.subTitle{
+  color: #0d6efd;
+}
+.imageCurrentTrip{
+  height: 500px !important;
+  width: 100% !important;
+}
+@media (max-width:1000px) {
+  .cardBook{
+  
+    width: 100%;
+  }
+}
