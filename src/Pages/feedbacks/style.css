@@ -1,0 +1,163 @@
+
+
+
+.addbtn {
+    margin: 20px;
+    right: 120px;
+    position: fixed;
+    z-index: 1000000;
+}
+
+.card {
+    width: 50%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #666;
+}
+
+.card .head {
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+.card .head img {
+    width: 50px;
+    height: 50px;
+    margin: 10px ;
+    display: inline;
+}
+.card .head h1 {
+    display: inline;
+}
+
+.card .feedbackbody {
+    background-color: white ;
+}
+
+.card .feedbackbody h5 {
+    padding: 12px;
+}
+.card .feedbackbody video {
+    width: 100%;
+    height: 400px;
+}
+
+.formmm {
+    width: 70%;
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: all 0.5s ease, transform 0.5s ease; /* Added transition properties */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-20px); /* Move up slightly */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: none;
+}
+
+.showw {
+    display: block;
+    margin-top: -120px;
+    opacity: 1; /* Show element */
+    transform: translate(-50%, -50%); /* Move to original position */
+}
+
+.hiddenn {
+    opacity: 0; /* Hide element */
+    transform: translateY(-20px); /* Move up slightly */
+}
+
+
+@media(max-width:820px)
+{
+    .card{
+        width: 85%;
+    }
+    .add {
+        margin: 20px;
+        right: 10px;
+        position: fixed;
+        z-index: 2;
+    }
+}
+
+@media(max-width:520px)
+{
+    .card{
+        width: 90%;
+    }
+    .addbtn {
+        margin: 20px;
+        right: 10px;
+        top: 80px;
+    }
+    .formmm {
+        width: 90%;
+    }
+}
+
+
+.delete {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 71, 71);
+    color: white;
+    margin-top: -13px;
+    border: none;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.pagination{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 5px;   
+   width: 50%;
+   margin: 60px auto;
+
+}
+.page {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color:  gray;
+    cursor: pointer;
+
+}
+.active {
+    background-color: gray;
+    color: white;
+
+}
+.prev ,
+.nxt {
+    width: max-content;
+    font-size: 20px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.nofeedbacks {
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+   font-size: 25px;
+}
+
