@@ -97,7 +97,7 @@ function Header() {
               <Nav.Link href="/about">{t("aboutUs")}</Nav.Link>
               <Nav.Link href="/blog">{t("blog")}</Nav.Link>
               <Nav.Link href="/ourTrips">{t("allTrips")}</Nav.Link>
-              <Nav.Link href="/feedbacks">{t("feedbacks")}</Nav.Link>
+              <Nav.Link href="/feedbacks">{t("Reviews")}</Nav.Link>
               <Nav.Link href="/contact">{t("contact")}</Nav.Link>
               {/* <Nav.Link href="/addTrip">Dashboard</Nav.Link> */}
             </Nav>
