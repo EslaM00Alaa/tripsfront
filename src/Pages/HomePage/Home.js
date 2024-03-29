@@ -119,7 +119,7 @@ const Home = () => {
             </p>
             <p>
               <i className="fab fa-whatsapp"></i> WhatsApp:{" "}
-              <a href="https://wa.me/+01091066075">WhatsApp</a>
+              <a href="https://wa.me/+201091066075">WhatsApp</a>
             </p>
             <p>
               <a href="https://www.facebook.com/profile.php?id=61556796441526&mibextid=ZbWKwL">
