@@ -8,6 +8,7 @@ import Row from "react-bootstrap/Row";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
+import { faFileVideo } from "@fortawesome/free-solid-svg-icons";
 const AddTrip = () => {
   const navigate = useNavigate();
   const [description, setDescription] = useState("");
@@ -18,6 +19,7 @@ const AddTrip = () => {
   const [duration, setDuration] = useState("");
   const [vehicle, setVehicle] = useState("");
   const [gudinjg, setGudinjg] = useState("");
+  const [video, setVideo] = useState("");
   const [uploadProgress, setUploadProgress] = useState(0);
   const [validated, setValidated] = useState(false);
 
@@ -43,6 +45,7 @@ console.log(type)
     formData.append("vehicle", vehicle);
     formData.append("gudinjg", gudinjg);
     formData.append("type", type);
+    formData.append("video", video);
 
     try {
 
@@ -65,6 +68,7 @@ console.log(type)
       setVehicle("");
       setGudinjg("");
       setType("");
+      setVideo("")
       setUploadProgress(0);
       setValidated(false);
     } catch (error) {
@@ -183,7 +187,17 @@ console.log(type)
                 </Form.Select>
               </Form.Group>
             </div>
-
+            <Form.Group as={Col} md="12">
+                <Form.Label>Video :</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="URL..."
+                  name="video"
+                  value={video}
+                  onChange={(e) => setVideo(e.target.value)}
+                  required
+                />
+              </Form.Group>
             <Button type="submit" className="mt-3 mb-5">
               Add Trip
             </Button>

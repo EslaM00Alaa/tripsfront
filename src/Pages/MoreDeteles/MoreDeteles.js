@@ -105,15 +105,21 @@ function MoreDetails() {
       <Header />
       <Container className="mt-5 mb-5">
         {tripDetails && (
+          
           <Row>
-            <img
-              className="d-block imageCurrentTrip"
-              src={tripDetails.image}
-              alt="imageCurrentTrip"
-            />
+        <div className="d-flex align-items-center justify-content-between">
+              <img
+                className="d-block imageCurrentTrip "
+                src={tripDetails.image}
+                alt="imageCurrentTrip"
+              />
+              {/* <div className="video w-50 p-2">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/oUFN7I67dIU?si=1FibPvSL8z4S82B6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div> */}
+        </div>
 
             <Col className="mb-3 w-50">
-              <h2>{tripDetails.name}</h2>
+              <h2 className="title-detailes">{tripDetails.name}</h2>
               <Card className="cardBook">
                 <ListGroup className="list-group-flush">
                   <ListGroup.Item className="d-flex align-items-center justify-content-between">
@@ -264,10 +270,19 @@ function MoreDetails() {
                 </ListGroup>
               </Card>
             </Col>
+
+            
             <p>Description For This Trip:</p>
             <hr />
             <p>{tripDetails.description}</p>
+
+            {/* <div className="video">
+            {tripDetails.video}
+              </div> */}
+              <div className="video" dangerouslySetInnerHTML={{ __html:tripDetails.video  }}></div>
           </Row>
+
+          
         )}
       </Container>
 

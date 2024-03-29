@@ -25,7 +25,6 @@ import Category2 from "./Pages/TripPage/Category2";
 import Category3 from "./Pages/TripPage/Category3";
 import Category4 from "./Pages/TripPage/Category4";
 import SuccessPayment from "./Pages/SuccessPayment/SuccessPayment.jsx";
-import Feedbacks from "./Pages/feedbacks/feedbacks.js";
 
 
 
@@ -46,10 +45,6 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactUs />,
-  },
-  {
-    path: "/feedbacks",
-    element: <Feedbacks />,
   },
   {
     path: "/ourTrips",

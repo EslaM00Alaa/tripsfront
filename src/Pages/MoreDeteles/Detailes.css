@@ -13,13 +13,42 @@
 .subTitle{
   color: #0d6efd;
 }
-.imageCurrentTrip{
-  height: 500px !important;
+
+.imageCurrentTrip {
+  height: 400px !important;
   width: 100% !important;
+}
+.video{
+  width: 100% !important;
+  height: 500px !important;
+  border-radius: 7px;
+}
+.video iframe{
+  width: 100% !important;
+  height: 500px !important;
+  border-radius: 7px;
 }
 @media (max-width:1000px) {
   .cardBook{
   
     width: 100%;
+  }
+  .title-detailes{
+    font-size: 30px !important;
+  }
+  .imageCurrentTrip {
+    height: 250px !important;
+  
+  }
+
+  .video{
+    width: 100% !important;
+    height: 300px !important;
+    border-radius: 7px;
+  }
+  .video iframe{
+    width: 100% !important;
+    height: 300px !important;
+    border-radius: 7px;
   }
 }
