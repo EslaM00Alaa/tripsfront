@@ -21,7 +21,7 @@ const Feedbacks = () => {
         const token = localStorage.getItem("token");
   
         // Fetch feedbacks for the current page
-        const response1 = await axios.get(`/feedback/user/${currentPage}`, {
+        const response1 = await axios.get(`/feedback${localStorage.getItem('role')==='user'?'/user':''}/${currentPage}`, {
           headers: {
             token: `${token}`,
           },

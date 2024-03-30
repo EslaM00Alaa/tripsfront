@@ -265,7 +265,7 @@ function MoreDetails() {
                   </ListGroup.Item>
                   <ListGroup.Item className="d-flex align-items-center justify-content-between">
                     <span>Guiding:</span>{" "}
-                    <span className="statusTravel">{tripDetails.guiding}</span>
+                    <span className="statusTravel">{tripDetails.gudinjg}</span>
                   </ListGroup.Item>
                 </ListGroup>
               </Card>
@@ -319,7 +319,7 @@ function MoreDetails() {
                     </ListGroup.Item>
                     <ListGroup.Item className="d-flex align-items-center justify-content-around">
                       <span>Guiding:</span>{" "}
-                      <span className="statusTravel">{trip.guiding}</span>
+                      <span className="statusTravel">{trip.gudinjg}</span>
                     </ListGroup.Item>
                   </ListGroup>
                   <Card.Body>

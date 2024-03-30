@@ -17,8 +17,8 @@ import Orders from "./Pages/Dashboard/Orders";
 import MoreDeteles from "./Pages/MoreDeteles/MoreDeteles";
 import SignIn from "./components/Header/SignIn";
 import SignUp from "./components/Header/SignUp";
-import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n'; 
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 import AddNewAdmin from "./Pages/Dashboard/AddNewAdmin";
 import Category1 from "./Pages/TripPage/Category1";
 import Category2 from "./Pages/TripPage/Category2";
@@ -29,7 +29,6 @@ import Feedbacks from "./Pages/feedbacks/feedbacks.js";
 import Check from "./components/Header/check.js";
 import RestPass from "./components/Header/resetPass.js";
 import Active from "./components/Header/active.js";
-
 
 const router = createBrowserRouter([
   {
@@ -55,7 +54,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/detaileTrip/:id",
-    element:<MoreDeteles />
+    element: <MoreDeteles />,
   },
 
   {
@@ -101,58 +100,51 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <SignIn/>,
+    element: <SignIn />,
   },
   {
     path: "/check",
-    element: <Check/>,
+    element: <Check />,
   },
   {
     path: "/resetpass/:mail",
-    element: <RestPass/>,
+    element: <RestPass />,
   },
   {
     path: "/active",
-    element: <Active/>,
+    element: <Active />,
   },
   {
     path: "/signup",
-    element: <SignUp/>,
-  }
-  ,
+    element: <SignUp />,
+  },
   {
     path: "/category1",
-    element: <Category1/>,
+    element: <Category1 />,
   },
   {
     path: "/category2",
-    element: <Category2/>,
+    element: <Category2 />,
   },
   {
     path: "/category3",
-    element: <Category3/>,
-  }
-  ,
+    element: <Category3 />,
+  },
   {
     path: "/category4",
-    element: <Category4/>,
+    element: <Category4 />,
   },
-{
-  path:"/orders/state",
-  element:<SuccessPayment/>,
-  
-}
+  {
+    path: "/orders/state",
+    element: <SuccessPayment />,
+  },
 ]);
 
-
 function App() {
-
   return (
     <>
       <RouterProvider router={router}>
-      <I18nextProvider i18n={i18n}> 
-
-      </I18nextProvider>
+        <I18nextProvider i18n={i18n}></I18nextProvider>
       </RouterProvider>
     </>
   );
