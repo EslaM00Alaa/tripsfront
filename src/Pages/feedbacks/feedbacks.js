@@ -21,7 +21,7 @@ const Feedbacks = () => {
         const token = localStorage.getItem("token");
   
         // Fetch feedbacks for the current page
-        const response1 = await axios.get(`/feedback${localStorage.getItem('role')==='user'?'/user':''}/${currentPage}`, {
+        const response1 = await axios.get(`/feedback/user/${currentPage}`, {
           headers: {
             token: `${token}`,
           },
@@ -192,7 +192,7 @@ const Feedbacks = () => {
       {pages > 0 ? (
   <div>
     {feedbacks.map((feedback, index) => (
-      <div className="card" key={index}>
+      <div className="cardd" key={index}>
         <div className="head">
           <img src={profile} alt="Profile" />
           <h1>{feedback.name}</h1>

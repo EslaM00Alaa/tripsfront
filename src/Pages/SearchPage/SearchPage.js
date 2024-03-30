@@ -65,7 +65,7 @@ function SearchPage() {
                       <span className="statusTravel">{result.vehicle}</span>
                     </ListGroup.Item>
                     <ListGroup.Item className="d-flex align-items-center justify-content-around">
-                      <span>Guiding:</span> <span className="statusTravel">{result.gudinjg}</span>
+                      <span>Guiding:</span> <span className="statusTravel">{result.guiding}</span>
                     </ListGroup.Item>
                   </ListGroup>
                   <Card.Body>

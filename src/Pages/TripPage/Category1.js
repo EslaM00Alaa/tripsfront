@@ -60,7 +60,7 @@ function Category1() {
                               <span>Vehicle:</span> <span className="statusTravel">{trip.vehicle}</span>
                             </ListGroup.Item>
                             <ListGroup.Item className="d-flex align-items-center justify-content-around">
-                              <span>Guiding:</span> <span className="statusTravel">{trip.gudinjg}</span>
+                              <span>Guiding:</span> <span className="statusTravel">{trip.guiding}</span>
                             </ListGroup.Item>
                           </ListGroup>
                           <Card.Body>
