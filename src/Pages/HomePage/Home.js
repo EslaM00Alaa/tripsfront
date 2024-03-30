@@ -26,8 +26,15 @@ import image1 from "../../images/cat1.jpg";
 import image2 from "../../images/4.avif";
 import image3 from "../../images/cat6.jpg";
 import image4 from "../../images/cat9.jpg";
-
+import {  useNavigate } from "react-router-dom";
 const Home = () => {
+
+  const navigate = useNavigate();
+  if(localStorage.getItem("active")==false)
+        {
+          navigate("/active");
+        }
+
   const { t } = useTranslation();
   const [trips, setTrips] = useState([]);
 

@@ -3,7 +3,7 @@ import api from "../../components/db/api";
 import "./ContactUs.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-
+import {  useNavigate } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,6 +12,13 @@ import Button from "react-bootstrap/Button";
 import { useTranslation } from "react-i18next";
 
 const ContactUs = () => {
+
+  const navigate = useNavigate();
+  if(!localStorage.getItem("active"))
+        {
+          navigate("/active");
+        }
+
   const [formData, setFormData] = useState({
     name: "",
     mail: "",

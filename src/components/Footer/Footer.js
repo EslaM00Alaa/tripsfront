@@ -42,7 +42,7 @@ function Footer() {
             <FontAwesomeIcon icon={faEnvelope} size="2xl" className="m-2 " />
           </a>
 
-          <Link to="https://wa.me/+01091066075" className="social">
+          <Link to="https://wa.me/+201091066075" className="social">
             {" "}
             <FontAwesomeIcon icon={faWhatsapp} size="2xl" className="m-2 " />
           </Link>
